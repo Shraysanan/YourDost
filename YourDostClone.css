@@ -113,17 +113,27 @@ footer {
 }
 .yellowlink{
 	color: #f7b817;
+	text-decoration: underline;
 }
 .whitelink{
-	color:#ffffff;
+	color:lightgrey;
+}
+.whitelink:hover{
+	color: #ffffff;
+	text-decoration: none;
 }
 body{
-	font-family: Roboto,sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400px;
+}
+.navbar{
+	/*padding-left: 100px;
+	padding-right: 100px;*/
 }
 hr.type_8 {
 border: 0;
 height: 15px;
-min-width: 1920px;
+min-width: inherit;
 background-image: url(https://i2.wp.com/css-tricks.com/wp-content/uploads/2019/12/rainbow-stripes.jpg?ssl=1);
 background-repeat: no-repeat;
 background-size:100% auto;;
@@ -145,4 +155,22 @@ border-style: solid;
 border-color: black;
 border-width: 0 0 1px 0;
 border-radius: 20px;
+}
+.manage{
+	padding-top: 50px;
+}
+.bak{
+	background: url(https://d1edzrgaei4psf.cloudfront.net/newHome/12.svg);
+}
+.siz{
+	padding-bottom: 50px;
+	align-self: center;
+}
+.card{
+ box-shadow: 5px 5px 4px #888888
+}
+.abc{
+	font-size: 35px;
+	font-weight: 400px;
+	padding-bottom: 50px;
 }
