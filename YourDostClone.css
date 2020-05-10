@@ -125,7 +125,8 @@ footer {
 body{
 	font-family: 'Roboto', sans-serif;
 	font-weight: 400px;
-	 -webkit-print-color-adjust: exact;
+	-webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+    	color-adjust: exact !important;                 /*Firefox*/
 }
 .navbar{
 	/*padding-left: 100px;
