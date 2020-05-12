@@ -115,6 +115,9 @@ footer {
 	color: #f7b817;
 	text-decoration: underline;
 }
+.yellowlink:hover{
+	color: #f7b817;
+}
 .whitelink{
 	color:lightgrey;
 }
