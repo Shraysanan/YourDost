@@ -2,8 +2,8 @@
 	background:url(https://d1edzrgaei4psf.cloudfront.net/newHome/Hero_web-min.jpeg) no-repeat center ;
 	-webkit-background-size:100% auto;
 	-moz-background-size:100% auto;
-	-o-background-size100% auto;
-	background-size100% auto;
+	-o-background-size:100% auto;
+	background-size:100% auto;
 	max-width: 1920px;
 	height: 720px;
 }
